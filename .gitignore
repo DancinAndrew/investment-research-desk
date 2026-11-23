@@ -1,0 +1,16 @@
+node_modules
+.claude/worktrees/
+dist/
+.sites-runtime/
+.private/
+private-evidence/
+private-inputs/
+public/data/
+src/markdown-ast.json
+src/report-registry.mjs
+src/local-research-config.mjs
+.openai/hosting.json
+*.sqlite*
+*.db
+*.log
+.DS_Store
