@@ -19,7 +19,7 @@ Built with Vue 3, Vite 8 and plain ES modules; the API runs as a Worker over a D
 Stage names are the identifiers in `STAGES` (`src/research-pipeline/pipeline.mjs`).
 
 ```mermaid
-flowchart LR
+flowchart TD
   IN[(Pinned input snapshot<br/>sha256-registered)] --> S1
   S1[intent_router] --> S2[source_retrieval]
   S2 --> S3[news_sector_agent]
